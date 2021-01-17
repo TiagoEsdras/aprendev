@@ -9,7 +9,7 @@ class Footer extends Component {
           <img src={logoDark} alt="logo aprendev" class="logo-footer" />
         </div>
         <div class="footer-text">
-          Desenvolvido por: Christopher Paladino, Lucas Nonato, Sttefanie Palatino e Tiago Esdras
+          Desenvolvido por: Christopher Paladino, Lucas Nonato, Sttefanie Paladino e Tiago Esdras
         </div>
       </footer>
     )
