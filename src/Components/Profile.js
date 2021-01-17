@@ -22,7 +22,7 @@ class Profile extends Component {
             </div>
             <div>
               <p class="profile-text">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              Seja um Jovem Aprendev! Nosso programa é para você que deseja entrar no mercado de trabalho e se qualificar com os melhores cursos.
               </p>
               <div>
                 <button class="profile-btn" onClick={() => handlerClickStudent()}>Inscreva-se agora</button>
@@ -39,7 +39,7 @@ class Profile extends Component {
             </div>
             <div>
               <p class="profile-text">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Tem uma ONG e deseja ser nosso parceiro? Faça seu cadastro hoje mesmo na nossa plataforma. E juntos, mudar a realidade de jovens brasileiros!
               </p>
               <div>
                 <button class="profile-btn" onClick={() => handlerClickONG()}>Seja Parceira</button>
@@ -56,10 +56,10 @@ class Profile extends Component {
             </div>
             <div>
               <p class="profile-text">
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Temos uma ampla base de alunos altamente capacitados em hard skills em programação, e em soft skills, fazendo deles excelentes profissionais.
               </p>
               <div>
-                <button class="profile-btn" onClick={() => handlerClickCompany()}>Seja Parceira</button>
+                <button class="profile-btn" onClick={() => handlerClickCompany()}>Assine Agora</button>
               </div>
             </div>
           </div>
