@@ -119,3 +119,81 @@ body {
 .main-btn:hover {
   background-color: #f1f1f1;
 }
+
+.profile-section {
+  background: rgba(51, 138, 247, 0.02);
+  padding: 20px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-title {
+  color: #FF5E19;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.profile-cards {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0px 30px;
+  filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 0.068));
+}
+
+.card-profile-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #F0B35B;
+}
+
+.studant {
+  color: #30CFD0;
+}
+
+.img-div {
+  height: 170px;
+}
+
+.profile-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7B7B7B;
+  text-align: justify;
+  padding: 20px 30px 50px 30px;
+}
+
+.profile-btn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: none;
+  background: linear-gradient(180deg, #F0B35B 0%, #FF6B00 100%);
+  border-radius: 0px 0px 30px 30px;
+  height: 50px;
+}
