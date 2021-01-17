@@ -3,7 +3,7 @@ import { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <header>
         <div>
           logo
         </div>
@@ -12,7 +12,7 @@ class Header extends Component {
           <li>Registre-se</li>
           <li>Login</li>
         </nav>
-      </div>
+      </header>
     )
   }
 }
