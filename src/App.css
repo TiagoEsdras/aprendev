@@ -43,41 +43,55 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #2581F7;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  line-height: 10px;
   border-radius: 4px;
   margin: 0px 10px;
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+.header img.logo {
+  width: 30px;
+  margin-left: 25px;
 }
 
 .header a:hover {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
-.header a.active {
-  background-color: dodgerblue;
+.header a.login {
+  background-color: #FF5E19;
   color: white;
   width: 100px;
   border-radius: 50px;
 }
 
-.header a.active:hover {
-  background-color: wheat;
+.header a.login:hover {
+  background-color: #ff7033;
+}
+
+.header a.register {
+  background-color: #ffffff;
+  color: rgb(37, 37, 37);
+  width: 100px;
+  border-radius: 50px;
+}
+
+.header a.register:hover {
+  background-color: #f1f1f1;
 }
 
 .header-right {

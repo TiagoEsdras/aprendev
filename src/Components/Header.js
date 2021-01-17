@@ -1,14 +1,15 @@
 import { Component } from 'react';
+import logoImage from '../images/aprendev.svg';
 
 class Header extends Component {
   render() {
     return (
       <header className="header">
-        <a href="#default" class="logo">CompanyLogo</a>
+        <img src={logoImage} alt="logo" class="logo" />
         <nav className="header-right">
-          <a href="#home">Contato</a>
-          <a class="active" href="#contact">Registre-se</a>
-          <a class="active" href="#about">Login</a>
+          <a href="#home">O programa</a>
+          <a className="register" href="#">Registre-se</a>
+          <a className="login" href="#">Login</a>
         </nav>
       </header>
     )
