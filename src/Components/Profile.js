@@ -9,8 +9,9 @@ class Profile extends Component {
     return (
       <div class="profile-section">
         <div>
-          <h1 class="profile-title">Escolha seu perfil</h1>
+          <h1 class="title-section">Escolha seu perfil</h1>
         </div>
+        <div class="separator"/>
         <div class="profile-cards">
           <div class="card">
             <div>

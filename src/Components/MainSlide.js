@@ -5,8 +5,9 @@ class MainSlide extends Component {
     return (
       <div class="main-slide">
         <div class="main-collun-one">
-          <h1 class="main-title">Lorem ipsum dolor sit <b>amet, consetetur</b> sadipscing elitr, sed.</h1>
-          <p class="main-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          <h1 class="main-title">
+            Construa o seu futuro sem se <b>preocupar com o presente</b></h1>
+          <p class="main-text">O aprendev une o mercado de trabalho com os jovens reduzindo preocupações de quem estuda.</p>
           <a class="main-btn" href="#">Saiba Mais</a>
         </div>
         <div>
