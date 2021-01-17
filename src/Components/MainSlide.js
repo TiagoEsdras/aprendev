@@ -1,16 +1,16 @@
 import { Component } from 'react';
-
+import mainSlide from '../images/g10.svg';
 class MainSlide extends Component {
   render() {
     return (
-      <div>
-        <div>
-          <h1>Lorem ipsum is placeholder text commonly</h1>
-          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-          <button>Saiba Mais</button>
+      <div class="main-slide">
+        <div class="main-collun-one">
+          <h1 class="main-title">Lorem ipsum dolor sit <b>amet, consetetur</b> sadipscing elitr, sed.</h1>
+          <p class="main-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          <a class="main-btn" href="#">Saiba Mais</a>
         </div>
         <div>
-          img
+          <img src={mainSlide} alt="main-slide" />
         </div>
       </div>
     )
