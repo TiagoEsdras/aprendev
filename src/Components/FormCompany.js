@@ -3,45 +3,73 @@ import { Component } from 'react';
 class FormCompany extends Component {
   render() {
     return (
-      <div>
-        <form>
-          <label htmlFor="name">
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="NOME DA EMPRESA"
-            />
-          </label>
-          <label htmlFor="email">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="EMAIL"
-            />
-          </label>
-          <label htmlFor="cnpj">
-            <input
-              type="text"
-              id="cnpj"
-              name="cnpj"
-              placeholder="CNPJ"
-            />
-          </label>
-          <label>
+      <div class="container">
+        <div>
+          <h1 class="title-form">Cadastre sua empresa</h1>
+        </div>
+        <form class="form-contact">
           <input
-              type="text"
-              id="numero-funcionarios"
-              name="numero-funcionarios"
-              placeholder="N° DE FUNCIONÁRIOS"
-            />            
-          </label>
-          <button
-            type="submit"
+            type="text"
+            class="form-contact-input"
+            name="nome"
+            placeholder="Nome da empresa"
+            required
+          />
+          <input
+            type="text"
+            class="form-contact-input"
+            name="cnpj"
+            placeholder="CNPJ"
+            required
+          />
+          <input
+            type="email"
+            class="form-contact-input"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="tel"
+            class="form-contact-input"
+            name="tel"
+            placeholder="Telefone"
+          />
+          <select
+            name="atucao"
+            id="atuacao"
+            class="form-contact-input"
           >
-            Enviar
-          </button>
+            <option hidden>Área de atuação</option>
+            <option value="tecnologia">Tecnologia</option>
+            <option value="industria">Indústria</option>
+            <option value="comercio">Comércio</option>
+            <option value="outros">Outros</option>
+          </select>
+          <input
+            type="number"
+            class="form-contact-input"
+            name="funcionarios"
+            placeholder="N° de funcionários"
+          />
+          <p>Sua empresa já tem projeto de Jovem Aprendiz?</p>
+          <input
+            type="radio"
+            id="sim"
+            name="gender"
+            value="sim"
+          />
+          <label for="sim">Sim</label>
+          <input
+            type="radio"
+            id="nao"
+            name="gender"
+            value="nao"
+          />
+          <label for="nao">Não</label>
+          <br />
+          <br />
+          <button type="submit" class="form-contact-button">Enviar</button>
         </form>
       </div>
     )
