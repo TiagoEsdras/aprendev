@@ -3,6 +3,7 @@ import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import MainSlide from '../Components/MainSlide';
 import Profile from '../Components/Profile';
+import TechPath from '../Components/TechPath';
 
 class Home extends Component {
 
@@ -36,6 +37,7 @@ class Home extends Component {
           handlerClickCompany={this.handlerClickCompany}
           handlerClickONG={this.handlerClickONG}
         />
+        <TechPath />
         <Footer />
       </div>
     )
