@@ -2,6 +2,7 @@ import { Component } from 'react';
 
 class Profile extends Component {
   render() {
+    const { handlerClickONG, handlerClickCompany, handlerClickStudent} = this.props;
     return (
       <div>
         <div>
@@ -20,7 +21,7 @@ class Profile extends Component {
                 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
               </p>
               <div>
-                <button>Inscreva-se agora</button>
+                <button onClick={ () => handlerClickStudent() }>Inscreva-se agora</button>
               </div>
             </div>
           </div>
@@ -37,7 +38,7 @@ class Profile extends Component {
                 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
               </p>
               <div>
-                <button>Seja Parceira</button>
+                <button onClick={ () => handlerClickONG() }>Seja Parceira</button>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ class Profile extends Component {
                 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
               </p>
               <div>
-                <button>Seja Parceira</button>
+                <button onClick={ () => handlerClickCompany() }>Seja Parceira</button>
               </div>
             </div>
           </div>
